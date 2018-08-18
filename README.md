@@ -1,9 +1,11 @@
 meteor+react
 ============
 
-Udemy course https://www.udemy.com/meteor-react-tutorial/learn/v4/t/lecture/5011652?start=0
+Udemy course https://www.udemy.com/meteor-react-tutorial/
 
 Code: https://github.com/stephengrider/meteorcasts
 
-Last stop:
-https://www.udemy.com/meteor-react-tutorial/learn/v4/t/lecture/5161956?start=0
+Completed the `images` meteor application
+
+Started on the `employees` part:
+https://www.udemy.com/meteor-react-tutorial/learn/v4/t/lecture/5162010?start=0
