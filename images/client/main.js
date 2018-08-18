@@ -1,13 +1,9 @@
-// Any JS in here is automatically ran for us
-
-// Import the React library
-
+import axios from 'axios';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import imgurConfig from './config/imgur';
 import ImageList from './components/image_list';
-
-// Create a component
 
 const App = () => {
   return (
@@ -17,8 +13,12 @@ const App = () => {
   );
 };
 
-// Render the component to the screen
-
 Meteor.startup(() => {
   ReactDOM.render(<App />, document.querySelector('.container'));
+  axios.get('https://api.imgur.com/3/gallery/hot/viral/0', {
+    headers: {
+      Authorization: 'Client-ID ' + imgurConfig.clientId
+    }
+  }).then(response => console.log(response));
+
 })
