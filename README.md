@@ -10,5 +10,8 @@ Completed the `images` meteor application
 Started on the `employees` part:
 https://www.udemy.com/meteor-react-tutorial/learn/v4/t/lecture/5162010?start=0
 
-Stopped at:
-https://www.udemy.com/meteor-react-tutorial/learn/v4/t/lecture/5313122?start=0
+Completed the `employees` meteor application
+
+Starting on the `shorten-my-link` application
+
+https://www.udemy.com/meteor-react-tutorial/learn/v4/t/lecture/5162062?start=0
