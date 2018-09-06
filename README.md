@@ -17,4 +17,4 @@ Starting on the `shorten-my-link` application
 https://www.udemy.com/meteor-react-tutorial/learn/v4/t/lecture/5162062?start=0
 
 Stopped at:
-https://www.udemy.com/meteor-react-tutorial/learn/v4/t/lecture/5162080?start=0
+https://www.udemy.com/meteor-react-tutorial/learn/v4/t/lecture/5162092?start=0
