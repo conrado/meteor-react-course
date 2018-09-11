@@ -4,12 +4,19 @@ import 'codemirror/mode/markdown/markdown'
 
 class BinsEditor extends Component {
 
+  onEditorChange(content) {
+
+  }
+
   render() {
     console.log(this.props.bin)
     return(
       <div className="col-xs-8">
         <h5>Input</h5>
-        <CodeMirror options={{ mode: 'markdown', lineNumbers: true }} />
+        <CodeMirror
+          onChange={this.onEditorChange.bind(this)}
+          options={{ mode: 'markdown', lineNumbers: true }}
+        />
       </div>
     )
   }
