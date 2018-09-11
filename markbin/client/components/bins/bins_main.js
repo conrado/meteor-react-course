@@ -5,13 +5,15 @@ import { Bins } from '../../../imports/collections/bins'
 class BinsMain extends Component {
 
   render() {
-    console.log(this.props.match.params.binId)
+    console.log(this.props.bin)
     return (
       <div>BinsMain</div>
     )
   }
 }
 
-export default createContainer(() => {
-
+export default createContainer((props) => {
+  const { binId } = props.match.params
+  Meteor.subscribe('bins')
+  return { bin: Bins.findOne(binId) }
 }, BinsMain)
