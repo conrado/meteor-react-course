@@ -16,7 +16,7 @@ Meteor.methods({
   },
 
   'bins.update': function(bin, content) {
-    return Bins.update({
+    return Bins.update(bin, {
       $set: { content }
     })
   }
